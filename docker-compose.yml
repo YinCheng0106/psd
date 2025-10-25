@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: psd-app
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - PORT=8501
+    volumes:
+      # 將課程 PDF 放在 ./data 下並掛載為唯讀
+      - ./data:/app/data:ro
+      # 向量資料庫持久化
+      - ./vector_db:/app/vector_db
+      # HuggingFace 模型快取持久化，加速再次啟動
+      - ./huggingface:/home/app/.cache/huggingface
+    restart: unless-stopped

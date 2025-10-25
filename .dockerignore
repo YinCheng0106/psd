@@ -1,0 +1,27 @@
+# VCS & editor
+.git
+.gitignore
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Envs
+.venv/
+.env
+
+# Caches
+.cache/
+.huggingface/
+
+# Data & vector store (以 volume 掛載)
+data/
+vector_db/
+
+# Other
+*.log
