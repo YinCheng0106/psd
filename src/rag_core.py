@@ -1,5 +1,5 @@
 import os
-from typing import Any, Callable, Dict, List
+from typing import Any, Callable, Dict
 
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
