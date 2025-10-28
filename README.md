@@ -4,6 +4,8 @@ A course TA Chatbot built with LangChain (RAG), Hugging Face Inference API, and 
 
 English | [繁體中文](./README.zh-TW.md)
 
+Docker Image: [yincheng0106/psd:latest](https://hub.docker.com/r/yincheng0106/psd-app)
+
 ## Quick Start
 
 1. Set up environment

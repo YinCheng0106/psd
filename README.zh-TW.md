@@ -4,6 +4,8 @@
 
 [English](./README.md) | 繁體中文
 
+Docker 映像檔： [yincheng0106/psd:latest](https://hub.docker.com/r/yincheng0106/psd-app)
+
 ## 快速開始
 
 1. 準備環境
